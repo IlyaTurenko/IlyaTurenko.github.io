@@ -1,0 +1,437 @@
+body
+{
+    background-color: #1C3077;
+}
+
+p 
+{
+    text-indent: 20px; 
+}
+
+a
+{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav
+{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+iframe
+{
+    width: 80vw;
+    height: 30vw;
+    border-radius: 30px;
+}
+
+.ec_contact_me_button 
+{
+  appearance: button;
+  background-color: #1C3077;
+  border: 1px solid #1C3077;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 20px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+}
+
+.burger{
+    display: none;
+}
+
+.burger_menu_icon{
+    width: 75px;
+    height: 75px;
+}
+
+.ec_logo_container
+{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.ec_logo_icon
+{
+    height: 75px;
+    width: 75px;
+}
+
+.logo_text
+{
+    margin-left: 30px;
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.ec_nav_panel
+{
+    margin-right: 50px;
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.nav_element
+{
+    margin-right: 50px;
+}
+
+.ec_first_screen_section
+{
+    background-image: url("../img/wires.png");
+    background-size: cover;
+    align-content: center
+}
+
+.ec_text_first_screen_section
+{
+    margin-top: 350px;
+    margin-bottom: 350px;
+    margin-left: 50px;
+}
+
+.first_screen_title
+{
+    font-family: Montserrat-ExtraBold;
+    font-size: 80px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.first_screen_subtitle
+{
+    font-family: Montserrat-Medium;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 600px;
+    margin-bottom: 70px;
+}
+
+.ec_contact_me_button 
+{
+  appearance: button;
+  background-color: #1C3077;
+  border: 1px solid #1C3077;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 20px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+}
+
+.ec_contact_me_button:disabled 
+{
+  opacity: .5;
+}
+
+.ec_contact_me_button:focus 
+{
+  outline: 0;
+}
+
+.ec_contact_me_button:hover 
+{
+  background-color: #0A46E4;
+  border-color: #0A46E4;
+}
+
+.ec_contact_me_button:active 
+{
+  background-color: #0039D7;
+  border-color: #0039D7;
+}
+
+.ec_about_us_section
+{
+    background-image: url("../img/man_with_wire.png");
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+
+.section_title
+{
+    font-family: Montserrat-ExtraBold;
+    font-size: 80px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 0px;
+}
+
+.ec_text_bloc_about_us_section{
+    font-family: Montserrat-Bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 550px;
+    margin-left: 80px;
+    word-wrap: break-word;
+}
+
+.ec_services_cards_section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.services_cards
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(375px,1fr));
+    justify-items: center;
+}
+
+.service_card
+{
+    box-shadow: 0px 0px 35px -3px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    width: 375px;
+    height: 375px;
+    background-color: #FFFFFF;
+
+}
+
+.card_picture
+{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 245px;
+    width: 100%;
+}
+
+.service_title
+{
+    font-family: Montserrat-ExtraBold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.price
+{
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: #969696;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.ec_review_section
+{
+    background-color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#review_title
+{
+    color: #4E4E4E;
+}
+
+.review_card
+{
+    border-radius: 30px;
+    box-shadow: 0px 0px 35px -3px rgba(0,0,0,0.1);
+    width: 350px;
+    padding: 30px 64px 48px 64px;
+
+}
+.review_textblock{
+    font-family: Montserrat-Medium;
+    font-size: 24px;
+    color: #4E4E4E;
+}
+
+.customer_name
+{
+    font-family: Montserrat-SemiBold;
+    font-size: 24px;
+    text-align: right;
+    margin: 0px 0px 0px 0px;
+    color: #4E4E4E;
+}
+
+.ec_contacts_section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ec_contact_me_section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.ec_texblock_contact_me_section{ 
+    font-family: Montserrat-ExtraBold;
+    font-size: 16px;
+    width: 40vw;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.ec_contact_me_form{
+    box-shadow: 0px 0px 35px -3px rgba(0,0,0,0.1);
+    width: 40vw;
+    height: 200px;
+    margin-left: 50px;
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.no_intend{
+    text-indent: 0px;
+}
+
+.email_text{
+    display: inline-block;
+    padding: 0 16px 0 12px;
+    width: 90%;
+    line-height: 30px;
+    height: 40px;
+    border: 1px solid #dddbda;
+    border-radius: 4px;
+    background-color: #fff;
+    color: rgb(8, 7, 7);
+    transition: border .1s linear,background-color .1s linear;
+    :focus{
+    border-color: #1b96ff;
+    color: var(--sds-c-input-text-color-focus);
+    box-shadow: rgb(1, 118, 211) 0px 0px 3px 0px;}
+}
+
+.phone_number{
+    display: inline-block;
+    padding: 0 16px 0 12px;
+    width: 90%;
+    line-height: 30px;
+    height: 40px;
+    border: 1px solid #dddbda;
+    border-radius: 4px;
+    background-color: #fff;
+    color: rgb(8, 7, 7);
+    transition: border .1s linear,background-color .1s linear;
+    :focus{
+    border-color: #1b96ff;
+    color: var(--sds-c-input-text-color-focus);
+    box-shadow: rgb(1, 118, 211) 0px 0px 3px 0px;}
+
+}
+
+@media screen and (max-width:1250px) {
+    .ec_logo_container {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .burger {
+        display: block;
+        z-index: 2;
+    }
+    .ec_nav_panel_upper {
+        padding-left: 50px;
+    }
+    .ec_nav_panel{
+        position: absolute;
+        left: -430px;
+        top: 0;
+        background-color: #1C3077;
+        padding: 100px 70px 70px 70px;
+        border-radius: 10px;
+        transition: transform;
+    }
+    .nav_element
+    {
+        margin: 30px 100px 30px 100px;
+        padding: 10px 0px 10px 0px;
+        display: block;
+        text-align: center;
+    }
+    .ec_nav_panel_upper.open .ec_nav_panel{
+        transform: translateX(100%);
+    }
+}
+
+@media screen and (max-width:1070px) {
+    .first_screen_title{
+        font-size: 50px;
+    }
+    .first_screen_subtitle{
+        font-size: 20px;
+    }
+    .ec_texblock_contact_me_section{
+        font-size: 12px;   
+    }
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(/src/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url(/src/fonts/Montserrat-ExtraBold.ttf);
+} 
+
+@font-face {
+    font-family: "Montserrat-italic";
+    src: url(/src/fonts/Montserrat-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(/src/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(/src/fonts/Montserrat-SemiBold.ttf);
+}
